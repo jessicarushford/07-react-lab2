@@ -1,0 +1,43 @@
+.SocialPosts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SocialPosts .new-thought-button {
+  width: 75%;
+  background-color: #03a9f4;
+  color: white;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: "Dosis", sans-serif;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.SocialPosts .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.SocialPosts .post-in-list-ul {
+  list-style: none;
+  width: 60%;
+  padding-left: 0;
+  background-color: white;
+  margin: 10px 0;
+  border: 1px solid black;
+  padding: 20px 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
